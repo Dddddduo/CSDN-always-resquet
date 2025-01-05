@@ -1,11 +1,18 @@
+package org.example.csdnalwaysrequestv1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import java.io.IOException;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
+@SpringBootApplication
+public class CsdnAlwaysRequestV1Application {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws InterruptedException {
+        SpringApplication.run(CsdnAlwaysRequestV1Application.class, args);
 
         System.out.println("begin");
 
@@ -262,8 +269,8 @@ public class Main {
         };
 
         // 创建定时执行的线程池
-        // 此时有5条线程
-        ScheduledExecutorService executor = Executors.newScheduledThreadPool(3);
+        // 此时有2条线程
+        ScheduledExecutorService executor = Executors.newScheduledThreadPool(2);
 
         // 循环访问多个网址，并每隔20秒执行一次
         for (String url : urls) {
@@ -283,4 +290,5 @@ public class Main {
         executor.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
         executor.shutdown();
     }
+
 }
