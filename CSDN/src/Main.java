@@ -11,6 +11,60 @@ public class Main {
 
         // 定义urls
         String[] urls = {
+                "https://gczdy.blog.csdn.net/article/details/144485249?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/144117801?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/144024941?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/144007274?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/143971526?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/143893963?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/143884731?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/143865551?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/143864194?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142496878?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/143084763?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/143083916?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142752760?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142747449?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142747359?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142747280?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142746903?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142747097?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142745997?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142745936?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142745749?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142745509?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142745378?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142598763?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142598539?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142596789?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142596395?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142595521?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142595270?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142595115?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142591288?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142591143?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142590633?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142590528?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142578627?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142578388?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142578163?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142578004?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142530709?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142531192?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142530052?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142441061?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142440919?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142440919?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142425177?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142371170?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142371130?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142370929?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142311964?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142311754?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142307723?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142306888?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142264483?spm=1001.2014.3001.5502",
+                "https://gczdy.blog.csdn.net/article/details/142147649?spm=1001.2014.3001.5502",
                 "https://gczdy.blog.csdn.net/article/details/142264483?spm=1001.2014.3001.5502",
                 "https://gczdy.blog.csdn.net/article/details/142147649?spm=1001.2014.3001.5502",
                 "https://gczdy.blog.csdn.net/article/details/142136907?spm=1001.2014.3001.5502",
@@ -209,7 +263,7 @@ public class Main {
 
         // 创建定时执行的线程池
         // 此时有5条线程
-        ScheduledExecutorService executor = Executors.newScheduledThreadPool(2);
+        ScheduledExecutorService executor = Executors.newScheduledThreadPool(3);
 
         // 循环访问多个网址，并每隔20秒执行一次
         for (String url : urls) {
@@ -221,8 +275,8 @@ public class Main {
                     e.printStackTrace();
                 }
             };
-            // 初始延迟10秒，每隔50秒执行一次任务
-            executor.scheduleAtFixedRate(task, 0, 50, TimeUnit.SECONDS);
+            // 初始延迟10秒，每隔40秒执行一次任务
+            executor.scheduleAtFixedRate(task, 0, 40, TimeUnit.SECONDS);
         }
 
         // 等待所有任务完成后关闭线程池
